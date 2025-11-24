@@ -1,0 +1,52 @@
+"""
+Constants and configuration for the Logisim application.
+"""
+
+# Colors
+COLOR_BACKGROUND = "#1e1e1e"
+COLOR_GRID = "#2d2d2d"
+COLOR_WIRE_OFF = "#555555"
+COLOR_WIRE_ON = "#00ff00"
+COLOR_WIRE_UNKNOWN = "#ff9900"
+COLOR_WIRE_HIGHZ = "#0099ff"
+COLOR_COMPONENT_FILL = "#2d2d2d"
+COLOR_COMPONENT_STROKE = "#ffffff"
+COLOR_SELECTED = "#00aaff"
+COLOR_TEXT = "#ffffff"
+COLOR_LED_OFF = "#333333"
+COLOR_LED_ON = "#ff0000"
+
+# Grid
+GRID_SIZE = 10
+GRID_SNAP = True
+
+# Component dimensions
+COMPONENT_PIN_SIZE = 8
+COMPONENT_DEFAULT_WIDTH = 60
+COMPONENT_DEFAULT_HEIGHT = 40
+GATE_WIDTH = 60
+GATE_HEIGHT = 40
+IO_SIZE = 30
+
+# Wire
+WIRE_WIDTH = 2
+WIRE_HIT_TOLERANCE = 5
+
+# Canvas
+CANVAS_MIN_ZOOM = 0.25
+CANVAS_MAX_ZOOM = 4.0
+CANVAS_ZOOM_STEP = 0.1
+
+# Simulation
+SIM_TICK_RATE_MS = 100  # milliseconds per tick
+SIM_MAX_PROPAGATION_DEPTH = 1000
+
+# Signal states
+SIGNAL_LOW = 0
+SIGNAL_HIGH = 1
+SIGNAL_UNKNOWN = -1
+SIGNAL_HIGHZ = -2
+
+# File
+FILE_EXTENSION = ".lgsim"
+FILE_VERSION = "1.0"
