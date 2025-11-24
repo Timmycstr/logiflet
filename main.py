@@ -130,7 +130,6 @@ class LogisimApp:
                     if circuit:
                         self.circuit = circuit
                         self.simulation = SimulationEngine(self.circuit)
-                        # self.parser = PromptParser(self.circuit)  # Removed
                         self.canvas.circuit = self.circuit
                         self.canvas.simulation = self.simulation
                         self.canvas.update_canvas()
